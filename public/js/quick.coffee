@@ -301,10 +301,10 @@ class Animate
 
 $(document).ready () ->
   # number in milliseconds to pause between animation frames
-  frame_rate    = 20
+  frame_rate    = 12
   
   # number in pixels to determine width of data set lines
-  stroke        = 4
+  stroke        = 5
   canvas_height = parseInt($('#quick_sort').css('height').replace("px", ""))
   canvas_width  = parseInt($('#quick_sort').css('width').replace("px", ""))
 

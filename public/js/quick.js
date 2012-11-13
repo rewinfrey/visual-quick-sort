@@ -395,8 +395,8 @@
 
   $(document).ready(function() {
     var animate, animation_list, canvas_height, canvas_width, frame_rate, quick, sorted_list, stroke;
-    frame_rate = 20;
-    stroke = 4;
+    frame_rate = 12;
+    stroke = 5;
     canvas_height = parseInt($('#quick_sort').css('height').replace("px", ""));
     canvas_width = parseInt($('#quick_sort').css('width').replace("px", ""));
     animate = new Animate("quick_sort", canvas_height, canvas_width, stroke, frame_rate);
