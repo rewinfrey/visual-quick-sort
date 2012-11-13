@@ -6,11 +6,13 @@
     <script src="/js/quick.js"></script>
   </head>
   <body>
-    <h1>Quick Sort</h1>
+    <h1>In Place Quick Sort</h1>
     <div class="explanation">
-      <p class="text_left">1. --</p>
-      <p class="text_left">2. --</p>
-      <p class="text_left">3. --</p>
+      <p>This sorting algorithm uses a "divid and conquer" strategy. "In Place" means this particular quick sort strategy never creates a new array of data and is far more efficient in terms of memory usage. It first locates a "pivot" (using the Median of Three strategy). Once the pivot is found, it is moved to the left-most position in the partition. A left-wall and right-wall compare in turn every element of the partition against the pivot. Elements less than the pivot are separated into a new left partition. Elements greater than the pivot are separated into the right partition. The left partition and right partition are separated again, by finding a new pivot, and creating two more partitions in the manner described above. This process repeats recursively until a partition is either already sorted, or contains fewer than 3 elements. If a partition contains fewer than 3 elements, the partition is sorted using insertion sort to boost the overall efficiency of the Quick Sort algorithm</p>
+      <p>Green represents the pivot</p>
+      <p>Yellow indicates the position of the left and right walls as they iterate over the elements of the partition</p>
+      <p>Red indicates where the left-wall and red-wall swap elements with one another (creating quick-sorted new left and right partitions)</p>
+      <p>Orange indicates partitions sorted using insertion sort (for those partitions that have fewer than 3 elements)</p>
     </div>
     <div id="canvas">
       <canvas id="quick_sort" width="800" height="400" style="margin-top: 20px;">Your browser does not support HTML5 :(</canvas>

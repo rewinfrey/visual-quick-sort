@@ -3,8 +3,8 @@ body {
 }
 
 h1 {
-  width: 266px;
-  margin: 40px auto;
+  width: 361px;
+  margin: 40px auto 20px auto;
   font-size: 30px;
 }
 
@@ -14,6 +14,10 @@ h3 {
   font-size: 18px;
 }
 
+p {
+  margin-left: 40px;
+  font-size: 10px;
+}
 #canvas {
   width: 741px;
   margin: auto;
@@ -24,7 +28,7 @@ h3 {
 }
 
 .explanation {
-  width: 700px;
+  width: 780px;
   margin: auto;
 }
 

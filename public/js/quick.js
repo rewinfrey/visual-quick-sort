@@ -120,6 +120,7 @@
           count += 1;
         }
         this.exchange(min, left);
+        this.animation_list.add_animation_node(this.data[left], "sorted");
         return this.quick_insertion(left + 1, right);
       }
     };
