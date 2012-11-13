@@ -8,7 +8,7 @@ About
 
 Quick Sort is a visual representation of a quick sort
 
-The visualization is a simple Rack-based app (Sinatra). Sorting and animation logic can be found in /public/js/selection_sort.coffee || /public/js/selection_sort.js
+The visualization is a simple Rack-based app (Sinatra). Sorting and animation logic can be found in /public/js/quick.coffee || /public/js/quick.js
 
 License
 ---------
